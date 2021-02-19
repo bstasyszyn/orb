@@ -5,7 +5,10 @@
 module github.com/trustbloc/orb
 
 require (
+	github.com/ThreeDotsLabs/watermill v1.2.0-rc.4
+	github.com/ThreeDotsLabs/watermill-http v1.1.3
 	github.com/cenkalti/backoff/v4 v4.1.0 // indirect
+	github.com/google/uuid v1.1.2
 	github.com/gorilla/mux v1.8.0
 	github.com/hyperledger/aries-framework-go v0.1.6-0.20210127113808-f60b9683e266
 	github.com/ipfs/go-ipfs-api v0.2.0
@@ -14,7 +17,7 @@ require (
 	github.com/sirupsen/logrus v1.7.0
 	github.com/stretchr/testify v1.6.1
 	github.com/trustbloc/edge-core v0.1.6-0.20210127161542-9e174750f523
-	github.com/trustbloc/sidetree-core-go v0.1.6-0.20210213084431-ac42e9d901f0
+	github.com/trustbloc/sidetree-core-go v0.1.6-0.20210127204726-af0b0257f397
 )
 
 go 1.15
